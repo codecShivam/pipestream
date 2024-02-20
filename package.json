@@ -1,0 +1,24 @@
+{
+  "name": "pipestream",
+  "version": "1.0.0",
+  "description": " video hosting website similar to youtube",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/codecShivam/pipestream.git"
+  },
+  "keywords": [
+    "javascript",
+    "backend",
+    "project"
+  ],
+  "author": "Shivam Yadav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codecShivam/pipestream/issues"
+  },
+  "homepage": "https://github.com/codecShivam/pipestream#readme"
+}
