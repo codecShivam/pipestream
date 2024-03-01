@@ -3,6 +3,8 @@
 import dotenv from "dotenv";
 import connetDB from "./db/index.js";
 
+import { app } from "./app.js";
+
 dotenv.config({ path: "./env" });
 connetDB()
   .then(() => {
@@ -23,9 +25,7 @@ connetDB()
   
 // Alternative approach
 /*
-import express from "express";
 
-const app = express();
 
 (async () => {
   try {
