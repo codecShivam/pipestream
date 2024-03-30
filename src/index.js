@@ -2,10 +2,9 @@
 
 import dotenv from "dotenv";
 import connetDB from "./db/index.js";
-
 import { app } from "./app.js";
 
-dotenv.config({ path: "./env" });
+dotenv.config({ path: "./.env" });
 connetDB()
   .then(() => {
     app.on("error", (error) => {
